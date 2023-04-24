@@ -6,7 +6,7 @@ PRIMITIVAS
 *NUMEROS*
 
 *   (**CONST**) -> não podem ser reatribuídas ou atualizadas após a inicialização;
-*   (**LET**) -> são acessíveis dentro do bloco em que foram criadas;
+*   (**LET**) -> são acessíveis dentro do bloco em que foram criadas -> só funciona dentro do bloco;
 *   (**VAR**) ->  podem ser reatribuídas e atualizadas a qualquer momento dentro do escopo em que foram criadas - **assume a mudança realizada**
 *   **Math.PI** representa automático o número pi;
 *   **NaN** representa um valor não numérico;
@@ -48,5 +48,6 @@ console.log(cifrao)
 *   true or false -> verificar condição
 
 ---
+
 
 

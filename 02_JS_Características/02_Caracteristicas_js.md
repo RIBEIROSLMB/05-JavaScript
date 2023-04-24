@@ -14,6 +14,7 @@
         *   Python, JavaScript e Ruby
 
 *   **NODE JS** é o interpretador da linguagem fora do navegador padrão (outra opção);
+*   **HOISTING** você pode atribuir um valor antes de declarar uma variável -> BAGUNÇADO KKKK    
 
 ---
 

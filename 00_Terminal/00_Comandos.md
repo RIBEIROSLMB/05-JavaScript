@@ -2,6 +2,11 @@
 
 ---
 
+#### ATALHOS WEB:
+
+*   CTRL + SHIFT + I -> abre o console na web;
+
+
 #### COMANDOS:
 
 *   cls -> limpar o terminal;
