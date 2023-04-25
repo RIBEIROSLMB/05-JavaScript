@@ -4,3 +4,4 @@ Aprendizados em JavaScript
 * Variáveis;
 * Características;
 * Funções;
+* Array;
