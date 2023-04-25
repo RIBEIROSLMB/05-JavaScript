@@ -14,6 +14,8 @@ Math.round(2.5) retorna 3, quando o número termina com 0.5 a função arredonda
 Math.ceil(): Faz o arredondamento para o valor mais alto, também conhecido como teto (ceil em inglês).
 Math.ceil(5.2) retorna 6
 
+*   **.toFixed(casas decimais)** -> delimita casas decimais do numero apresentado
+
 *   **Math.floor()** -> pega anterior valor inteiro
 Math.floor(): Faz o arredondamento para o valor mais baixo, também conhecido como piso (floor em inglês).
 Math.floor(5.2) retorna 5
@@ -44,7 +46,7 @@ Math.random() retorna 0.4214269561951203
 
 **TIPOS DE FUNÇÕES**
 
-*   **DECLARAÇÃO DE FUNÇÃO**
+*   **Função declarada**
 ```JS
 function somarValores(x,y)
 {
@@ -52,15 +54,37 @@ function somarValores(x,y)
 }
 
 imprimirTexto(somarValores(5, 15));
+
+// GERAL
+
+function nomeDaFuncao(parametro1, parametro2) {
+  // corpo da função
+}
+
 ```
 
-*   **EXPRESSÃO DE FUNÇÃO**
+*   **Expressão de função nomeada**
 ```JS
 const somax = function (x1, y1) { return x1 + y1 };
 console.log(somax(4, 8));
+
+// GERAL
+const nomeDaFuncao = function nomeDaFuncao(parametro1, parametro2) {
+  // corpo da função
+}
 ```
 
-*   **ARROW FUNCTION**
+*   **Expressão de função anônima**
 ```JS
+const nomeDaFuncao = function(parametro1, parametro2) {
+  // corpo da função
+}
+```
+
+*   **Arrow function**
+```JS
+const nomeDaFuncao = (parametro1, parametro2, ...) => {
+    // código da função
+};
 
 ```

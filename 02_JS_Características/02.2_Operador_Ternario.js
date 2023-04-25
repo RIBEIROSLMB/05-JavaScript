@@ -18,3 +18,10 @@ else
 
             //CONDIÇÃO                  ?  TRUE     : FALSO
 console.log(idadeCliente >= idadeMinima ? "cerveja" : "suco");
+
+
+// EX: 02
+
+var numero = 10;
+var resultado = (numero > 5) ? "maior que 5" : "menor ou igual a 5";
+console.log(resultado); // "maior que 5"
